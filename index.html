@@ -55,6 +55,18 @@
   display: inline-block;
 }
 }
+/* @media (min-width: 350px) and (orientation:landscape) {
+  .card{
+    height:100%;
+    width: auto;
+  }
+  .card-body{
+  font-size: 60%;
+  height: 100%;
+  width: auto;
+  text-align: justify;
+}
+} */
 @media (min-width: 768px) {
   .card-body{
   font-size: 80%;
@@ -70,6 +82,18 @@
   font-size:100%;
 }
 }
+/* @media (min-width: 768px) and (orientation:landscape) {
+  .card{
+    height: auto;
+    width: auto;
+  }
+  .card-body{
+  font-size: 60%;
+  height: 50%;
+  width: auto;
+  text-align: justify;
+}
+} */
 @media (min-width: 992px){
   .card-body{
   font-size: 80%;
@@ -85,6 +109,18 @@
   font-size:100%;
 }
 }
+/* @media (min-width: 992px) and (orientation:landscape) {
+  .card{
+    height: auto;
+    width: auto;  
+    }
+    .card-body{
+  font-size: 60%;
+  height: 50%;
+  width: auto;
+  text-align: justify;
+}
+} */
 @media (min-width: 1200px){
   .card-body{
   font-size: 90%;
@@ -100,6 +136,18 @@
   font-size:100%;
 }
 }
+/* @media (min-width: 1200px) and (orientation:landscape) {
+  .card{
+    height: auto;
+    width: auto;
+  }
+  .card-body{
+  font-size: 60%;
+  height: 50%;
+  width: auto;
+  text-align: justify;
+}
+} */
 </style>
 
 
@@ -151,7 +199,7 @@
 <div class="card-body text-dark ">
   <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="pills-hardwares-tab" data-toggle="pill" href="#pills-hardware" role="tab"
+    <a class="nav-link active" id="pills-hardwares-tab" data-toggle="pill" href="#pills-hardwares" role="tab"
       aria-controls="pills-hardware" aria-selected="true">Hardwares</a>
   </li>
   <li class="nav-item">
@@ -264,7 +312,7 @@
 <!-- Yuva's work -->
 
 <!-- Vaja's work -->
-<div class="container-fluid bg-success text-light text-dark" id="awards" style="height:100vh;">
+<div class="container-fluid bg-success text-light text-dark" id="awards" style="height:110vh;">
     <br>
     <br>	
     <div class="row">
@@ -512,12 +560,12 @@ $(document).ready(function () {
 		$(this).addClass("active");
 
 	});
-	$(".nav nav-pills .nav-item").on("click", function(){
+// 	$(".nav-pills .nav-item").on("click", function(){
 
-$("..nav nav-pills").find(".active").removeClass("active");
-$(this).addClass("active");
-alert("hello");
-});
+// $(".nav-pills").find(".active").removeClass("active");
+// $("li",this).addClass("active");
+
+// });
 </script>
 
 
