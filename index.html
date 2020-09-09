@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sabarivasan hardwares</title>
-	<!-- CSS only -->
+  <title>Sabarivasan hardwares</title>
+  <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 <!-- JS, Popper.js, and jQuery -->
@@ -14,25 +14,25 @@
 <link rel=”stylesheet” href=”css/bootstrap.css”>
 <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
 <!-- <div class="container-fluid"> -->
 
 <style type="text/css">
-	html {
+  html {
   scroll-behavior: smooth;}
   .container-fluid {
     scroll-snap-align: start;
     position: relative;
   }
-  .parent{
+/*  .parent{
   overflow: auto;
   height: 100vh;
   scroll-snap-type: y mandatory;
   scroll-snap-points-y: repeat(100vh);
 
-}
+}*/
 @media (min-width: 350px) {
 .card-body{
   font-size: 70%;
@@ -55,18 +55,6 @@
   display: inline-block;
 }
 }
-/* @media (min-width: 350px) and (orientation:landscape) {
-  .card{
-    height:100%;
-    width: auto;
-  }
-  .card-body{
-  font-size: 60%;
-  height: 100%;
-  width: auto;
-  text-align: justify;
-}
-} */
 @media (min-width: 768px) {
   .card-body{
   font-size: 80%;
@@ -82,18 +70,6 @@
   font-size:100%;
 }
 }
-/* @media (min-width: 768px) and (orientation:landscape) {
-  .card{
-    height: auto;
-    width: auto;
-  }
-  .card-body{
-  font-size: 60%;
-  height: 50%;
-  width: auto;
-  text-align: justify;
-}
-} */
 @media (min-width: 992px){
   .card-body{
   font-size: 80%;
@@ -109,21 +85,9 @@
   font-size:100%;
 }
 }
-/* @media (min-width: 992px) and (orientation:landscape) {
-  .card{
-    height: auto;
-    width: auto;  
-    }
-    .card-body{
-  font-size: 60%;
-  height: 50%;
-  width: auto;
-  text-align: justify;
-}
-} */
 @media (min-width: 1200px){
   .card-body{
-  font-size: 90%;
+  font-size: 80%;
   height: 70%;
   width: auto;
   text-align: justify;
@@ -136,70 +100,58 @@
   font-size:100%;
 }
 }
-/* @media (min-width: 1200px) and (orientation:landscape) {
-  .card{
-    height: auto;
-    width: auto;
-  }
-  .card-body{
-  font-size: 60%;
-  height: 50%;
-  width: auto;
-  text-align: justify;
-}
-} */
 </style>
 
 
 <!-- Header -->
 <div class="text-center text-light">
-	<nav class="navbar m-3 rounded shadow fixed-top navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#"><strong>Sabarivasan hardwares</strong></a>
-	  <!-- <a class="navbar-brand" href="#">estd. 1984</a> -->
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
-	      <!-- <a class="nav-item nav-link" href="#top-products">Home</a> -->
-	      <a class="nav-item nav-link" href="#products">Construction materials</a>
-	      <a class="nav-item nav-link" href="#awards">About us</a>
-	      <a class="nav-item nav-link" href="#contact">Contact us</a>
-	    </div>
-	  </div>
-	</nav>
+  <nav class="navbar m-3 rounded shadow fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><strong>Sabarivasan hardwares</strong></a>
+    <!-- <a class="navbar-brand" href="#">estd. 1984</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+        <!-- <a class="nav-item nav-link" href="#top-products">Home</a> -->
+        <a class="nav-item nav-link" href="#products">Construction materials</a>
+        <a class="nav-item nav-link" href="#awards">About us</a>
+        <a class="nav-item nav-link" href="#contact">Contact us</a>
+      </div>
+    </div>
+  </nav>
 </div>
 <!-- Header -->
 
 <div class="parent">
 <!-- Sara's work -->
-<div class="container-fluid bg-primary text-light" id="home">
-	<div class="row align-items-center " style="height: 100vh;">
-		<div class="col text-center">
-			<h1 class="d-none"> Welcome to Sabarivasan hardwares <h1>
-		</div>
-	</div>
+<div class="container-fluid bg-primary text-light" id="home" style="background: url(' /Brainla/Sabarish/home.png') no-repeat center ;  background-size: cover;">
+  <div class="row align-items-center " style="height: 100vh;">
+    <div class="col text-center">
+      <h1 class="d-none " style="color:red"> Welcome to Sabarivasan hardwares <h1>
+    </div>
+  </div>
 </div>
 <!-- Sara's work -->
 
 
 <!-- Yuva's work -->
-<div class="container-fluid bg-danger text-light" id="products">
-	<div class="row align-items-center text-center" style="height: 100vh;">
-	   <div class="col justify-content-center">
-	<!-- <div class="row align-items-center" style="height: 100vh;">
-		<div class="col text-center">
-			Pills for Roofing sheets/mesh and fencing 
-		</div>
-	</div> -->
-	<!-- <div class="justify-content-center text-center"> -->
-	<!-- Nav pills -->
+<div class="container-fluid bg-danger text-light" id="products" style="background: url('Brainla/Sabarish/cont.png') no-repeat center;  background-size: cover;">
+  <div class="row align-items-center text-center" style="height: 100vh;">
+     <div class="col justify-content-center">
+  <!-- <div class="row align-items-center" style="height: 100vh;">
+    <div class="col text-center">
+      Pills for Roofing sheets/mesh and fencing 
+    </div>
+  </div> -->
+  <!-- <div class="justify-content-center text-center"> -->
+  <!-- Nav pills -->
 <div class="card align-items-center m-5"> 
 <div class="card-body text-dark ">
   <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="pills-hardwares-tab" data-toggle="pill" href="#pills-hardwares" role="tab"
+    <a class="nav-link active" id="pills-hardwares-tab" data-toggle="pill" href="#pills-hardware" role="tab"
       aria-controls="pills-hardware" aria-selected="true">Hardwares</a>
   </li>
   <li class="nav-item">
@@ -207,29 +159,29 @@
       aria-controls="pills-plumbing" aria-selected="false">Plumbing</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="pills-roofing-tab" data-toggle="pill" href="#pills-roofing" role="tab"
-      aria-controls="pills-roofing" aria-selected="false">Roofing sheets</a>
+    <a class="nav-link" id="pills-construction-tab" data-toggle="pill" href="#pills-construction" role="tab"
+      aria-controls="pills-construction" aria-selected="false">Construction materials</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="pills-painting-tab" data-toggle="pill" href="#pills-painting" role="tab"
       aria-controls="pills-painting" aria-selected="false">Painting</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="pills-other-tab" data-toggle="pill" href="#pills-other" role="tab"
-      aria-controls="pills-other" aria-selected="false">Other</a>
+    <a class="nav-link" id="pills-roofing-tab" data-toggle="pill" href="#pills-roofing" role="tab"
+      aria-controls="pills-roofing" aria-selected="false">Roofing sheets</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="pills-mesh-tab" data-toggle="pill" href="#pills-mesh" role="tab"
       aria-controls="pills-mesh" aria-selected="false">Mesh & Fencing</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="pills-construction-tab" data-toggle="pill" href="#pills-construction" role="tab"
-      aria-controls="pills-construction" aria-selected="false">Construction materials</a>
+    <a class="nav-link" id="pills-other-tab" data-toggle="pill" href="#pills-other" role="tab"
+      aria-controls="pills-other" aria-selected="false">Other</a>
   </li>
 </ul>
 <div class="tab-content pt-2 pl-1 " id="pills-tabContent">
   <div class="tab-pane fade show active " id="pills-hardwares" role="tabpanel" aria-labelledby="pills-hardwares-tab">
- 
+  <div align = "text-center">    
   <ul>
   <li>Hardware-1</li>
   <li>Hardware-2</li>
@@ -238,72 +190,72 @@
   <li>Hardware-5</li>
   </ul>
   </div>
-
+  </div>
   <div class="tab-pane fade" id="pills-plumbing" role="tabpanel" aria-labelledby="pills-plumbing-tab">
-   
+    <div align = "text-center">    
   <ul>
-  <li>Plumbing-1</li>
-  <li>Plumbing-2</li>
-  <li>Plumbing-3</li>
-  <li>Plumbing-4</li>
-  <li>Plumbing-5</li>
+  <li>plumbing-1</li>
+  <li>plumbing-2</li>
+  <li>plumbing-3</li>
+  <li>plumbing-4</li>
+  <li>plumbing-5</li>
   </ul>
   </div>
- <div class="tab-pane fade" id="pills-roofing" role="tabpanel" aria-labelledby="pills-roofing-tab">
-    
-  <ul>
-  <li>Roofing-1</li>
-  <li>Roofing-2</li>
-  <li>Roofing-3</li>
-  <li>Roofing-4</li>
-  <li>Roofing-5</li>
-  </ul>
   </div>
-
- 
-  <div class="tab-pane fade" id="pills-painting" role="tabpanel" aria-labelledby="pills-painting-tab">
-  
-  <ul>
-  <li>Painting-1</li>
-  <li>Painting-2</li>
-  <li>Painting-3</li>
-  <li>Painting-4</li>
-  <li>Painting-5</li>
-  </ul>
-  </div>
-
-  <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
-   
-  <ul>
-  <li>Other-1</li>
-  <li>Other-2</li>
-  <li>Other-3</li>
-  <li>Other-4</li>
-  <li>Other-5</li>
-  </ul>
-  </div>
- 
-  <div class="tab-pane fade" id="pills-mesh" role="tabpanel" aria-labelledby="pills-mesh-tab">
-      
-  <ul>
-  <li>Mesh-1</li>
-  <li>Mesh-2</li>
-  <li>Mesh-3</li>
-  <li>Mesh-4</li>
-  <li>Mesh-5</li>
-  </ul>
-  </div>
-  
   <div class="tab-pane fade" id="pills-construction" role="tabpanel" aria-labelledby="pills-construction-tab">
-  
+    <div align = "text-center">    
   <ul>
-  <li>Construction-1</li>
-  <li>Construction-2</li>
-  <li>Construction-3</li>
-  <li>Construction-4</li>
-  <li>Construction-5</li>
+  <li>construction-1</li>
+  <li>construction-2</li>
+  <li>construction-3</li>
+  <li>construction-4</li>
+  <li>construction-5</li>
   </ul>
-
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-painting" role="tabpanel" aria-labelledby="pills-painting-tab">
+    <div align = "text-center">    
+  <ul>
+  <li>painting-1</li>
+  <li>painting-2</li>
+  <li>painting-3</li>
+  <li>painting-4</li>
+  <li>painting-5</li>
+  </ul>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-roofing" role="tabpanel" aria-labelledby="pills-roofing-tab">
+    <div align = "text-center">    
+  <ul>
+  <li>roofing-1</li>
+  <li>roofing-2</li>
+  <li>roofing-3</li>
+  <li>roofing-4</li>
+  <li>roofing-5</li>
+  </ul>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-mesh" role="tabpanel" aria-labelledby="pills-mesh-tab">
+    <div align = "text-center">    
+  <ul>
+  <li>mesh-1</li>
+  <li>mesh-2</li>
+  <li>mesh-3</li>
+  <li>mesh-4</li>
+  <li>mesh-5</li>
+  </ul>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
+    <div align = "text-center">    
+  <ul>
+  <li>other-1</li>
+  <li>other-2</li>
+  <li>other-3</li>
+  <li>other-4</li>
+  <li>other-5</li>
+  </ul>
+  </div>
   </div>
 </div>
 </div></div>
@@ -312,15 +264,13 @@
 <!-- Yuva's work -->
 
 <!-- Vaja's work -->
-<div class="container-fluid bg-success text-light text-dark" id="awards" style="height:110vh;">
-    <br>
-    <br>	
-    <div class="row">
+<div class="container-fluid bg-success text-light text-dark" id="awards" style="height:100vh;">  
+    <div class="row" style="padding-top: 5%; ">
    <div class="card m-5">
   <div class="header text-center">
+    <h1> <b>About Us</b></h1>
   </div>
    <div class="card-body text-dark text-justify">
-    <b>About us:</b>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -482,65 +432,81 @@
 
 <!-- Thej's work -->
 <div class="container-fluid bg-warning text-dark" id="contact">
-	<div class="d-flex align-items-center text-justify" style="height: 100vh;">
-		<div class="row justify-content-center">
-		<div class="col-sm-3">
-			<!-- Card -->
-			<div class="card h-70">
+  <div class="d-flex align-items-center justify-content-center text-justify" style="height: 100vh;">
+    <div class="row" >
+    <div class="col-sm-3">
+      <!-- Card -->
+      <div class="card h-70">
 
-			  <!-- Card content -->
-			  <div class="card-body">
-			  	<b>Contact details:</b>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
-			  </div>
+        <!-- Card content -->
 
-			</div>
-			<!-- Card -->
-		</div>
-		<div class="col-sm-3">
-			<!-- Card -->
-			<div class="card h-100">
+          <div class="card h-70">
+            <h4 class="card-header"><b>Contact Details:</b></h4>
+  <div class="card-body">
+    <h4 class="card-subtitle mb-2 text-muted">SABARIVASAN HARDWARES :</h4>
+    <p class="card-text" style="font-size: auto;">Phone No. 4201 7468 / 4201 7929.<br>
+             Email id :ejfnwejfnwejnrjfnw.<br>
+             Website :www.fef.com.</p>
+  </div>
+</div>
 
-			  <!-- Card content -->
-			  <div class="card-body">
-				<iframe frameborder="0" style="border:0; height: 100%; width: 100%;"  
+      <!--   <div class="card-body">
+          <b>Contact details:</b><br>
+             SABARIVASAN HARDWARES : <br>
+             Phone No. 4201 7468 / 4201 7929.<br>
+             Email id :ejfnwejfnwejnrjfnw.<br>
+             Website :www.fef.com.
+        </div> -->
+
+      </div>
+      <!-- Card -->
+    </div>
+    <div class="col-sm-3">
+      <!-- Card -->
+      <div class="card h-100">
+
+        <!-- Card content -->
+        <div class="card-body">
+        <iframe frameborder="0" style="border:0; height: 100%; width: 100%;"  
   src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAgxnI1wD_h0Z9ei8alJLuVNnJoK7es_q0&q=sabarivasan+hardwares" allowfullscreen>
-				</iframe>
-			  </div>
+        </iframe>
+        </div>
 
-			</div>
-			<!-- Card -->
-		</div>
-		<div class="col-sm-3 ">
-			<!-- Card -->
-			<div class="card h-70">
+      </div>
+      <!-- Card -->
+    </div>
+    <div class="col-sm-3 ">
+      <!-- Card -->
+      <div class="card h-70">
+        <h4 class="card-header"><b>Address Details:</b></h4>
+  <div class="card-body">
+    <h4 class="card-subtitle mb-2 text-muted">SABARIVASAN HARDWARES :</h4>
+    <h4 class="card-text">#881/9,C.T.H. Road, Padi, <br>Chennai - 600050. 
+      <br>Tamil Nadu.<br> India. </h4>
+  </div>
+</div>
+    <!--   <div class="card h-70">
 
-			  <!-- Card content -->
-			  <div class="card-body">
-			  	<b>Address details:</b>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
-			  </div>
+        <div class="card-body">
+         <b><h2>Address details:</h2></b><br>
+          <h6> SABARIVASAN HARDWARES :</h6>
+           #881/9,C.T.H. Road, Padi, Chennai - 600050.
+        </div>
 
-			</div>
-			<!-- Card -->
-		</div>
-	</div>
-	</div>
+      </div> -->
+      <!-- Card -->
+    </div>
+  </div>
+  </div>
 </div>
 <!-- Thej's work -->
 
 
 <!-- Footer -->
 <footer>
-	<div class="container text-center text-dark">
-		&copy Sabarivasan hardwares
-	</div>
+  <div class="container text-center text-dark">
+    &copy Sabarivasan hardwares
+  </div>
 </footer>
 <!-- Footer -->
 
@@ -554,18 +520,12 @@
 $(document).ready(function () {
     $('.d-none').fadeIn(1000).removeClass('d-none');
 });
-	$(".navbar-nav .nav-item").on("click", function(){
+  $(".navbar-nav .nav-item").on("click", function(){
 
-		$(".navbar-nav").find(".active").removeClass("active");
-		$(this).addClass("active");
+    $(".navbar-nav").find(".active").removeClass("active");
+    $(this).addClass("active");
 
-	});
-// 	$(".nav-pills .nav-item").on("click", function(){
-
-// $(".nav-pills").find(".active").removeClass("active");
-// $("li",this).addClass("active");
-
-// });
+  });
 </script>
 
 
